@@ -197,3 +197,14 @@ body *{font-size:max(var(--minimum-type),1em)}
 .footer-bottom p{text-wrap:pretty}
 
 .site-header{top:0}.hero{height:100svh}@media(max-width:800px){.hero{height:100svh}}
+
+/* Language selection stays visible outside the mobile menu. */
+.mobile-lang-switch{display:none}
+@media(max-width:800px){
+ .site-header{height:auto;padding-top:16px;flex-wrap:wrap;gap:8px 14px}
+ .site-header .brand{order:1}.site-header .menu-toggle{order:2;margin-left:auto}
+ .mobile-lang-switch{display:flex;order:3;flex-basis:100%;justify-content:flex-end;gap:6px}
+ .mobile-lang-switch button{min-height:44px;min-width:76px;padding:8px 14px;border:1px solid #ffffff90;border-radius:22px;background:#faf8f2;color:#202923;font-size:14px;font-weight:500;text-decoration:none}
+ .mobile-lang-switch button.active{background:#202923;color:#faf8f2;border-color:#faf8f2;text-decoration:none}
+ .site-header .nav-links{top:124px;order:4}.nav-links .lang-switch{display:none}
+}
