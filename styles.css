@@ -208,3 +208,6 @@ body *{font-size:max(var(--minimum-type),1em)}
  .mobile-lang-switch button.active{background:#202923;color:#faf8f2;border-color:#faf8f2;text-decoration:none}
  .site-header .nav-links{top:124px;order:4}.nav-links .lang-switch{display:none}
 }
+
+/* Keep the expanded navigation readable with the local food guide. */
+@media (min-width:801px) and (max-width:1200px){.menu-toggle{display:flex;align-items:center;gap:10px;min-height:44px;background:transparent;border:1px solid #ffffff70;color:white;padding:9px 18px;border-radius:25px}.nav-links{display:none;position:absolute;left:var(--pad);right:var(--pad);top:100px;padding:24px;border-radius:12px;background:white;color:var(--ink);gap:16px;box-shadow:0 8px 40px #0002;flex-wrap:wrap}.nav-links.open{display:flex}.nav-inquiry{border-color:var(--line);width:100%;justify-content:space-between}}
