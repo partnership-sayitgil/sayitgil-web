@@ -1,7 +1,7 @@
-# 사잇길부산 / Sayitgil Busan — 부산 자개 공예와 다도 체험
+# 사잇길부산 / SayItGil BUSAN — 부산 자개 공예와 다도 체험
 
 사잇길부산은 부산 남구에서 자개 소품 만들기와 한국 차를 함께 경험하는 공예 체험을 운영합니다. 부산 여행 중 직접 만든 기념품을 가져갈 수 있는 문화 체험입니다.
-Sayitgil Busan offers a hands-on mother-of-pearl craft workshop with Korean tea in Nam-gu, Busan, South Korea. Travelers decorate a souvenir and take their finished item home.
+SayItGil BUSAN offers a hands-on mother-of-pearl craft workshop with Korean tea in Nam-gu, Busan, South Korea (48526). Travelers decorate a souvenir and take their finished item home.
 
 ## 체험 정보 / Experience details
 
@@ -9,7 +9,7 @@ Sayitgil Busan offers a hands-on mother-of-pearl craft workshop with Korean tea 
 - 진행 언어 / Languages: 한국어, 영어 / Korean and English.
 - 포함 / Includes: 공예 재료, 1인 1소품, 한국 차 / Craft materials, one finished item per guest, Korean tea.
 - 선택 옵션 / Optional extras: 품목 업그레이드와 선물포장 / Item upgrades and gift packaging.
-- 주소 / Address: 부산광역시 남구 동명로 119, 2층 / 2F, 119 Dongmyeong-ro, Nam-gu, Busan, South Korea.
+- 주소 / Address: 부산광역시 남구 동명로 119, 2층 (48526) / 2F, 119 Dongmyeong-ro, Nam-gu, Busan, South Korea (48526).
 - 예약 / Booking: 사전 예약. 예약 가능 날짜·시각과 정원은 예약 화면 또는 문의로 확인합니다. / Book in advance; confirm available dates, start times and capacity through the booking page or inquiry.
 
 ## 개인 체험 가격 / Individual workshop prices
@@ -58,4 +58,4 @@ Email your preferred date, time, group size and venue for availability and a quo
 - [GetYourGuide](https://www.getyourguide.com/busan-l32281/busan-mother-of-pearl-craft-class-with-games-t1162229/)
 - [Instagram](https://www.instagram.com/sayitgil/)
 
-정보 기준 / Information updated: 2026-10-14. 예약 화면에서 최종 가격·예약 가능 여부를 확인하세요. Confirm final prices and availability at booking.
+정보 기준 / Information updated: 2026-10-16. 예약 화면에서 최종 가격·예약 가능 여부를 확인하세요. Confirm final prices and availability at booking.
