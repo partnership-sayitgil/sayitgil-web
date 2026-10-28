@@ -213,3 +213,6 @@ body *{font-size:max(var(--minimum-type),1em)}
 @media (min-width:801px) and (max-width:1200px){.menu-toggle{display:flex;align-items:center;gap:10px;min-height:44px;background:transparent;border:1px solid #ffffff70;color:white;padding:9px 18px;border-radius:25px}.nav-links{display:none;position:absolute;left:var(--pad);right:var(--pad);top:100px;padding:24px;border-radius:12px;background:white;color:var(--ink);gap:16px;box-shadow:0 8px 40px #0002;flex-wrap:wrap}.nav-links.open{display:flex}.nav-inquiry{border-color:var(--line);width:100%;justify-content:space-between}}
 
 .lang-switch a{display:inline-flex;align-items:center;justify-content:center;font-family:inherit}
+
+/* Direct inquiry submission */
+.inquiry-consent .form-note{margin:0 0 14px}.consent-label{display:flex!important;align-items:flex-start;gap:12px;cursor:pointer;font-size:14px;line-height:1.65}.consent-label input[type="checkbox"]{width:20px;min-width:20px;height:20px;margin-top:3px;accent-color:#202923}.inquiry button:disabled{opacity:.65;cursor:wait}.form-status{grid-column:1/-1;overflow-wrap:anywhere;scroll-margin-top:100px}
