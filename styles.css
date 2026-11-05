@@ -217,6 +217,6 @@ body *{font-size:max(var(--minimum-type),1em)}
 /* Direct inquiry submission */
 .inquiry-consent .form-note{margin:0 0 14px}.consent-label{display:flex!important;align-items:flex-start;gap:12px;cursor:pointer;font-size:14px;line-height:1.65}.consent-label input[type="checkbox"]{width:20px;min-width:20px;height:20px;margin-top:3px;accent-color:#202923}.inquiry button:disabled{opacity:.65;cursor:wait}.form-status{grid-column:1/-1;overflow-wrap:anywhere;scroll-margin-top:100px}
 
-/* Keep the complete place name legible as one wordmark on every viewport. */
-.footer-wordmark{display:flex;align-items:baseline;gap:.24em;font-size:clamp(28px,8.3vw,120px);line-height:1.25;letter-spacing:-.065em;white-space:nowrap;margin:24px 0}
-.footer-wordmark>span{font:inherit;letter-spacing:inherit;margin-left:0}
+/* Reference wordmark: compact name with a smaller, regular-weight place label. */
+.footer-wordmark{display:flex;align-items:baseline;gap:.24em;font-size:clamp(14px,4.15vw,60px);line-height:1.25;letter-spacing:-.065em;white-space:nowrap;margin:24px 0}
+.footer-wordmark>span{font:400 .55em/1.2 var(--body);letter-spacing:0;margin-left:0}
