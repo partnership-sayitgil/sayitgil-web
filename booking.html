@@ -14,6 +14,12 @@ a{color:inherit;text-underline-offset:4px}nav{display:flex;gap:18px}h1{font-fami
 iframe{display:block;width:100%;height:1600px;border:1px solid #d7ddd4;border-radius:6px;background:#fff;margin-top:24px}
 body [lang=ko]{display:none}html[lang=ko] body [lang=en]{display:none}html[lang=ko] body [lang=ko]{display:revert}footer{font-size:14px}
 @media(max-width:600px){header,main,footer{padding:18px}iframe{height:2000px}.facts{display:block}.facts li{margin-bottom:6px}}
+
+@font-face{font-family:NotoSans;src:url('/fonts/NotoSansKR-VF.woff2');font-weight:100 900;font-display:swap}
+body{font-family:NotoSans,'Noto Sans KR',sans-serif;word-break:keep-all}.notice a{overflow-wrap:anywhere}
+iframe{background:#f7f6f2;border-radius:0}h1{font-family:inherit;font-weight:600}
+.arrival{margin:28px 0 36px;padding-top:24px;border-top:1px solid #d1d3c7}.arrival h2{font-size:22px;margin:0 0 14px}.arrival figure{margin:0}.arrival img{display:block;width:100%;height:auto;border:1px solid #d1d3c7}.arrival figcaption{font-size:14px;margin-top:12px;color:#546452}.arrival a{display:inline-block;margin-top:12px}
+.arrival-gallery{display:grid;grid-template-columns:1fr 1fr;gap:20px}.arrival-gallery a{display:block;margin:0;outline-offset:4px}.arrival-gallery img{transition:opacity .15s}.arrival-gallery a:hover img{opacity:.9}.arrival-hint{font-size:14px;color:#546452}.arrival-shortcut{margin:8px 0 22px}@media(max-width:700px){.arrival-gallery{grid-template-columns:1fr;gap:24px}}@media(prefers-reduced-motion:reduce){.arrival-gallery img{transition:none}}
 </style>
 <link href="/i18n/language.css" rel="stylesheet"/><script src="/i18n/catalogs.js"></script><script src="/i18n/language.js"></script></head><body>
 <header><a href="/en/" id="home">SayItGil BUSAN</a></header><nav aria-label="Language" class="language-nav booking-language"></nav>
@@ -27,16 +33,25 @@ body [lang=ko]{display:none}html[lang=ko] body [lang=en]{display:none}html[lang=
 <p lang="ko">1인 기준: 키링·책갈피 30,000원 / 손거울·명함케이스 35,000원 / 코스터 50,000원. 아래 예약 화면에서 품목을 선택해 주세요.</p>
 <p lang="en">Studio: 2F, 119 Dongmyeong-ro, Nam-gu, Busan. Look for the HAEDAL (해달) sign on the ground floor. Any special event venue is shown in the booking form for your selected date.</p>
 <p lang="ko">매장: 부산 남구 동명로 119, 2층. 1층 해달 간판을 확인해 주세요. 행사일의 별도 장소는 선택하신 날짜의 예약 화면에서 안내합니다.</p>
-<div class="notice"><span lang="en">Online booking closes 24 hours before the class. For same-day availability, call <a href="tel:+82517110819">+82 51-711-0819</a> before visiting. A voucher is only needed if you choose prepaid K-Tour pass payment.</span><span lang="ko">온라인 예약은 체험 24시간 전 마감됩니다. 당일 체험은 방문 전에 <a href="tel:+82517110819">051-711-0819</a>로 가능 여부를 문의해 주세요. 이용권 번호는 K-Tour pass 선결제를 선택하신 경우에만 필요합니다.</span></div>
+<p class="arrival-shortcut"><a href="#arrival">See entrance photos</a></p>
+<div class="notice"><span lang="en">Online booking closes 24 hours before the class. For same-day availability, email <a href="mailto:partnership@sayitgil.net">partnership@sayitgil.net</a> before visiting.</span><span lang="ko">온라인 예약은 체험 24시간 전 마감됩니다. 당일 체험 가능 여부는 방문 전에 <a href="mailto:partnership@sayitgil.net">partnership@sayitgil.net</a>으로 문의해 주세요.</span></div>
 </section>
-<p><span lang="en">If the booking form does not appear, </span><span lang="ko">예약 화면이 열리지 않으면 </span><a href="https://script.google.com/macros/s/AKfycbyXpKoqZbP_6FrjWinauXaoG4Repch2DBeDXLnsBOaWq20-2mQzUze0p-VXziFubLeddw/exec?lang=en&amp;v=10" id="direct" rel="noopener" target="_blank"><span lang="en">open the booking form in a new tab</span><span lang="ko">새 탭에서 예약 화면 열기</span></a>.</p>
-<iframe allow="payment" id="booking-form" src="https://script.google.com/macros/s/AKfycbyXpKoqZbP_6FrjWinauXaoG4Repch2DBeDXLnsBOaWq20-2mQzUze0p-VXziFubLeddw/exec?lang=en&amp;v=10" title="SayItGil BUSAN booking form"></iframe>
-</main><footer><a href="mailto:partnership@sayitgil.net">partnership@sayitgil.net</a> · <a href="https://www.google.com/maps?cid=4516739246951051170">Google Maps</a></footer>
+<p><span lang="en">If the booking form does not appear, </span><span lang="ko">예약 화면이 열리지 않으면 </span><a href="https://script.google.com/macros/s/AKfycbyXpKoqZbP_6FrjWinauXaoG4Repch2DBeDXLnsBOaWq20-2mQzUze0p-VXziFubLeddw/exec?lang=en&amp;v=25" id="direct" rel="noopener" target="_blank"><span lang="en">open the booking form in a new tab</span><span lang="ko">새 탭에서 예약 화면 열기</span></a>.</p>
+<iframe allow="payment" id="booking-form" src="https://script.google.com/macros/s/AKfycbyXpKoqZbP_6FrjWinauXaoG4Repch2DBeDXLnsBOaWq20-2mQzUze0p-VXziFubLeddw/exec?lang=en&amp;v=25" title="SayItGil BUSAN booking form"></iframe>
+<section class="arrival" id="arrival" aria-labelledby="arrival-title">
+<h2 id="arrival-title">Find our entrance</h2>
+<p>Look for the HAEDAL (해달) sign on the ground floor, then take the stairs to the second floor.</p>
+<div class="arrival-gallery">
+<figure><a href="/img/arrival/building-entrance.jpg" target="_blank" rel="noopener" aria-label="Building entrance — view full size"><img src="/img/arrival/building-entrance.jpg" width="1536" height="1024" loading="lazy" alt="Building entrance — view full size"/></a><figcaption>01 · Building &amp; ground-floor entrance</figcaption></figure>
+<figure><a href="/img/arrival/second-floor.jpg" target="_blank" rel="noopener" aria-label="Second-floor workshop — view full size"><img src="/img/arrival/second-floor.jpg" width="1536" height="1024" loading="lazy" alt="Second-floor workshop — view full size"/></a><figcaption>02 · Second-floor workshop entrance</figcaption></figure>
+</div><p class="arrival-hint">Tap a photo to view it full size.</p>
+</section></main><footer><a href="mailto:partnership@sayitgil.net">partnership@sayitgil.net</a> · <a href="https://www.google.com/maps?cid=4516739246951051170">Google Maps</a></footer>
 <script>
 let lang=window.SayitgilLanguage.effective;document.documentElement.lang=lang;
-const url="https://script.google.com/macros/s/AKfycbyXpKoqZbP_6FrjWinauXaoG4Repch2DBeDXLnsBOaWq20-2mQzUze0p-VXziFubLeddw/exec"+'?lang='+lang+'&locale='+window.SayitgilLanguage.locale+'&v=10';
+const url="https://script.google.com/macros/s/AKfycbyXpKoqZbP_6FrjWinauXaoG4Repch2DBeDXLnsBOaWq20-2mQzUze0p-VXziFubLeddw/exec"+'?lang='+lang+'&locale='+window.SayitgilLanguage.locale+'&v=25';
 document.getElementById('direct').href=url;
 document.getElementById('booking-form').src=url;
 document.getElementById('home').href=window.SayitgilLanguage.mainPath(window.SayitgilLanguage.locale);
+window.SayitgilLanguage.translate(document.getElementById('arrival'));window.SayitgilLanguage.translate(document.querySelector('.arrival-shortcut'));
 if(lang==='ko')document.title='사잇길부산 자개 공예·다도 체험 예약';
 </script></body></html>
