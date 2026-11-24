@@ -1,0 +1,33 @@
+/* Quiet language links share the typography and spacing of the header. */
+.language-nav{display:flex;justify-content:flex-end;align-items:center;gap:4px 20px;flex-wrap:wrap;font-family:inherit;color:#202923}
+.language-nav a{display:flex;align-items:center;justify-content:center;gap:6px;position:relative;min-height:44px;padding:8px 2px;color:inherit;background:transparent;border:0;text-decoration:none;font-size:13px;font-weight:400;line-height:1.4;white-space:nowrap}
+.language-nav a::after{content:"";position:absolute;bottom:5px;left:2px;right:2px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .18s ease}
+.language-nav a[aria-current=page]::after,.language-nav a:hover::after{transform:scaleX(1)}
+.language-nav a:focus-visible{outline:2px solid #b49b6c;outline-offset:2px}
+.language-nav .language-flag{display:block;width:16px;height:11px;object-fit:cover;border:0;flex-shrink:0}
+.language-nav .language-globe{display:block;width:15px;height:15px;flex-shrink:0}
+.site-header{flex-wrap:wrap;row-gap:0}
+.site-header>.language-nav{flex-basis:100%;order:4;color:#fff;padding:0;background:transparent;border:0;box-shadow:none;text-shadow:0 1px 8px #0009}
+.booking-language{max-width:1120px;margin:0 auto;padding:6px 24px}
+.food-language{max-width:1100px;margin:0 auto;padding:6px 16px}
+@media(max-width:800px){
+ .language-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 8px;width:100%}
+ .language-nav a{padding:8px 0;font-size:12px;min-width:0}
+ .language-nav a::after{left:24%;right:24%;bottom:7px}
+ .site-header>.language-nav{margin-top:6px;max-width:340px;align-self:flex-start}
+ .site-header .nav-links{top:170px}
+ .booking-language,.food-language{padding:6px 20px}
+}
+@media(prefers-reduced-motion:reduce){.language-nav a::after{transition:none}}
+html:not([lang="ko"]) [data-lang="ko"],html:not([lang="ko"]) body [lang="ko"]:not([data-locale]){display:none}
+html[lang="fr"] :is(h1,h2,h3){font-family:var(--display);letter-spacing:-.04em}
+
+/* Allow natural CJK wrapping instead of the Korean keep-all rule. */
+html:is([lang="ja"],[lang="zh-hant"],[lang="zh-hans"]) body{word-break:normal;overflow-wrap:anywhere}
+html[lang="fr"] body{overflow-wrap:anywhere}
+
+@media(max-width:800px){html[lang="ja"] .hero h1{font-size:clamp(34px,9.5vw,46px)}}
+
+.collection-side{min-width:0}.collection-side p{white-space:normal;overflow-wrap:anywhere}
+
+.collection-intro{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
